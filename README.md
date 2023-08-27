@@ -5,6 +5,12 @@ https://www.youtube.com/watch?v=rIV1EseKwU4
 
 Follow these steps to set up and run the project on your local machine.
 
+1. if some of the packages install through pip goes to error please use conda to install.
+2. run below first
+   ```sh
+   huggingface-cli login
+   ```
+3. 
 
 ### Installation
 
