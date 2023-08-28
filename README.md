@@ -11,12 +11,12 @@ Follow these steps to set up and run the project on your local machine.
    huggingface-cli login
    ```
 3. change below:
-    ``` File "C:\Users\xxx\Anaconda3\envs\openai\Lib\site-packages\chromadb\config.py", line 1, in <module>
+    ```sh File "C:\Users\xxx\Anaconda3\envs\openai\Lib\site-packages\chromadb\config.py", line 1, in <module>
     from pydantic import BaseSettings
     ```
-with
-   
-    ```from pydantic-settings import BaseSettings
+   with   
+    ```sh
+    from pydantic-settings import BaseSettings
     ```
 
 ### Installation
