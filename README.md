@@ -12,8 +12,10 @@ Follow these steps to set up and run the project on your local machine.
    ```
 3. change below:
     ``` File "C:\Users\xxx\Anaconda3\envs\openai\Lib\site-packages\chromadb\config.py", line 1, in <module>
-    from pydantic import BaseSettings'''
-    with
+    from pydantic import BaseSettings
+    ```
+with
+   
     ```from pydantic-settings import BaseSettings
     ```
 
